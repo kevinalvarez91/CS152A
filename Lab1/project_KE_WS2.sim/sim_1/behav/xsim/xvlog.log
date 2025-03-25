@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/basys3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module basys3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/tb/model_uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module model_uart
+WARNING: [VRFC 10-2019] loop variable declaration is not allowed in this mode of verilog [C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/tb/model_uart.v:49]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seq
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seq_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seq_alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seq_mult
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_rf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seq_rf
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/uart.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/uart_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/uart_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_top
+INFO: [VRFC 10-2458] undeclared symbol tfifo_wr, assumed default net type wire [C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/uart_top.v:98]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/tb/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb

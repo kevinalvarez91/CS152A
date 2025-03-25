@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_4KE.srcs/sources_1/new/ddr_led_timing.v" \
+"../../../../project_4KE.srcs/sources_1/new/display.v" \
+"../../../../project_4KE.srcs/sources_1/new/scoring.v" \
+"../../../../project_4KE.srcs/sources_1/new/ddr.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

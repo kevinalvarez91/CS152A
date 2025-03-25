@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Downloads/Src_lab1_NEW/Src_lab1/rtl/basys3.v" \
+"../../../../../Downloads/Src_lab1_NEW/Src_lab1/tb/model_uart.v" \
+"../../../../../Downloads/Src_lab1_NEW/Src_lab1/rtl/seq.v" \
+"../../../../../Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_add.v" \
+"../../../../../Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_alu.v" \
+"../../../../../Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_mult.v" \
+"../../../../../Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_rf.v" \
+"../../../../../Downloads/Src_lab1_NEW/Src_lab1/rtl/uart.v" \
+"../../../../../Downloads/Src_lab1_NEW/Src_lab1/rtl/uart_fifo.v" \
+"../../../../../Downloads/Src_lab1_NEW/Src_lab1/rtl/uart_top.v" \
+"../../../../../Downloads/Src_lab1_NEW/Src_lab1/tb/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

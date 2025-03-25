@@ -1,0 +1,17 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/basys3.v,1738013225,verilog,,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/tb/model_uart.v,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_definitions.v,basys3,,,,,,,,
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq.v,1738013225,verilog,,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_add.v,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_definitions.v,seq,,,,,,,,
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_add.v,1738013225,verilog,,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_alu.v,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_definitions.v,seq_add,,,,,,,,
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_alu.v,1738013225,verilog,,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_mult.v,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_definitions.v,seq_alu,,,,,,,,
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_definitions.v,1738013225,verilog,,,,,,,,,,,,
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_mult.v,1738013225,verilog,,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_rf.v,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_definitions.v,seq_mult,,,,,,,,
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_rf.v,1738013225,verilog,,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/uart.v,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_definitions.v,seq_rf,,,,,,,,
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/uart.v,1738013225,verilog,,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/uart_fifo.v,,uart,,,,,,,,
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/uart_fifo.v,1738013225,verilog,,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/uart_top.v,,uart_fifo,,,,,,,,
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/uart_top.v,1738013225,verilog,,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/tb/tb.v,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq_definitions.v,uart_top,,,,,,,,
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/tb/model_uart.v,1738186805,verilog,,C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/rtl/seq.v,,model_uart,,,,,,,,
+C:/Users/Student/Downloads/Src_lab1_NEW/Src_lab1/tb/tb.v,1738615507,verilog,,,,tb,,,,,,,,
+C:/Users/Student/project_KE_WS2/project_KE_WS2.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,

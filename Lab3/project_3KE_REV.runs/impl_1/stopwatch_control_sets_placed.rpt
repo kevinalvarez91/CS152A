@@ -1,0 +1,77 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Feb 26 12:56:02 2025
+| Host         : CS152A-07 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file stopwatch_control_sets_placed.rpt
+| Design       : stopwatch
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     9 |
+| Unused register locations in slices containing registers |    26 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      4 |            1 |
+|      8 |            4 |
+|     10 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              26 |            3 |
+| No           | No                    | Yes                    |             204 |           28 |
+| No           | Yes                   | No                     |               6 |            2 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              42 |            7 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------------------+---------------------------------+------------------+----------------+
+|  Clock Signal  |              Enable Signal              |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++----------------+-----------------------------------------+---------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                                         | counter_inst/seg_reg_reg[4][0]  |                1 |              2 |
+|  clk_IBUF_BUFG |                                         | btnR_IBUF                       |                1 |              4 |
+|  clk_IBUF_BUFG | clock_div_inst/div2Hz/seconds_reg[3][0] | counter_inst/seconds[3]_i_1_n_0 |                2 |              8 |
+|  clk_IBUF_BUFG | counter_inst/minutes[7]_i_1_n_0         | rst                             |                1 |              8 |
+|  clk_IBUF_BUFG | counter_inst/minutes1                   | counter_inst/minutes[3]_i_1_n_0 |                1 |              8 |
+|  clk_IBUF_BUFG | counter_inst/seconds[7]_i_2_n_0         | counter_inst/seconds[7]_i_1_n_0 |                1 |              8 |
+|  clk_IBUF_BUFG | clock_div_inst/divFast/E[0]             | rst                             |                2 |             10 |
+|  clk_IBUF_BUFG |                                         |                                 |                3 |             26 |
+|  clk_IBUF_BUFG |                                         | rst                             |               28 |            204 |
++----------------+-----------------------------------------+---------------------------------+------------------+----------------+
+
+
